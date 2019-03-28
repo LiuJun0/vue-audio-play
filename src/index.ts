@@ -1,4 +1,4 @@
-import VueComponentTemplate from './components/vue-component-template/index.vue';
+import VueAudio from './components/vue-audio/vue-audio.vue';
 
 declare module 'vue/types/vue' {
     interface VueConstructor {
@@ -6,20 +6,6 @@ declare module 'vue/types/vue' {
     }
 }
 
-const components = [
-  VueComponentTemplate,
-];
+VueAudio.install = Vue => Vue.component(VueAudio.name, VueAudio);
 
-const install = (Vue:any): void | any => {
-  if ((install as any).installed) return;
-  components.map(component => Vue.component(component.name, component));
-};
-
-if (typeof window !== 'undefined' && (window as any).Vue) {
-  install((window as any).Vue);
-}
-
-export {
-  install,
-  VueComponentTemplate,
-};
+export default VueAudio;

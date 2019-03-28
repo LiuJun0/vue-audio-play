@@ -1,17 +1,33 @@
 <template>
-    <vue-component-template :title="title"/>
+    <vue-audio :value="audioUrl" :audioStyle="{ width: '340px' }">
+      <span slot="option1" @click="option1Event">Edit</span>
+      <span slot="option1">Delete</span>
+    </vue-audio>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import VueComponentTemplate from '@/components/vue-component-template/index.vue'; // @ is an alias to /src
+import VueAudio from '@/components/vue-audio/vue-audio.vue'; // @ is an alias to /src
 
-  @Component({
-    components: {
-      VueComponentTemplate,
-    },
-  })
+@Component({
+  components: {
+    VueAudio,
+  },
+})
+
 export default class Home extends Vue {
-  private title: string = 'Welcome to Your Vue.js + TypeScript App'
+  name: string = 'home'
+
+  private audioUrl: object = {
+    url: 'http://img95.699pic.com/audio/877/777/2_all.mp3',
+    name: 'BattleField',
+  }
+
+  /**
+   * option1Event
+   */
+  public option1Event() {
+    console.log('option1 content');
+  }
 }
 </script>

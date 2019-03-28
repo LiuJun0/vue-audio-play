@@ -9,7 +9,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'vue-component-template',
+      name: 'home',
       component: () => import(/* webpackChunkName: "video" */ './views/Home.vue'),
     },
   ],

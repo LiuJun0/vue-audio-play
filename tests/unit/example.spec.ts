@@ -1,13 +1,16 @@
 import { expect } from 'chai';
 import { shallowMount } from '@vue/test-utils';
-import HelloWorld from '@/components/vue-component-template/index.vue';
+import VueAudio from '@/components/vue-audio/vue-audio.vue';
 
-describe('HelloWorld.vue', () => {
+describe('VueAudio.vue', () => {
   it('renders props.msg when passed', () => {
-    const title = 'new message';
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { title },
+    const value = {
+      url: 'http://img95.699pic.com/audio/877/777/2_all.mp3',
+      name: 'BattleField',
+    };
+    const wrapper = shallowMount(VueAudio, {
+      propsData: { value },
     });
-    expect(wrapper.text()).to.include(title);
+    expect(wrapper.text()).to.include(value);
   });
 });

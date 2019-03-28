@@ -1,5 +1,5 @@
 {
-  "name": "component-template",
+  "name": "vue-audio",
   "version": "0.1.0",
   "private": false,
   "author": {
@@ -7,8 +7,8 @@
     "email": "ljmail@vip.163.com"
   },
   "license": "MIT",
-  "main": "dist/component-template.umd.min.js",
-  "homepage": "https://gitlab.com/joycean/vue-component-template",
+  "main": "dist/vue-audio.umd.min.js",
+  "homepage": "https://github.com/LiuJun0/vue-audio.git",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -21,6 +21,7 @@
     "@types/axios": "^0.14.0",
     "axios": "^0.18.0",
     "element-ui": "^2.6.1",
+    "lodash": "^4.17.11",
     "reset-css": "^4.0.1",
     "tslint-loader": "^3.5.4",
     "vue": "^2.6.6",
@@ -55,7 +56,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "src/*.js": [
+    "src/*.ts": [
       "vue-cli-service lint",
       "git add"
     ],
