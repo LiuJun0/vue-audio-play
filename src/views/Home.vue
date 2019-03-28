@@ -1,8 +1,8 @@
 <template>
-    <vue-audio :value="audioUrl" :audioStyle="{ width: '340px' }">
+    <vue-audio-play :value="audioUrl" :audioStyle="{ width: '340px' }">
       <span slot="option1" @click="option1Event">Edit</span>
       <span slot="option1">Delete</span>
-    </vue-audio>
+    </vue-audio-play>
 </template>
 
 <script lang="ts">

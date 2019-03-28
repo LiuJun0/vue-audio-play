@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["vue-audio"] = factory(require("vue"));
-	else
-		root["vue-audio"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -745,13 +736,6 @@ module.exports = function (it) {
   return toString.call(it).slice(8, -1);
 };
 
-
-/***/ }),
-
-/***/ "2e91":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -18012,6 +17996,17 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "3917":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_play_vue_vue_type_style_index_0_id_6b8049ea_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("73fa");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_play_vue_vue_type_style_index_0_id_6b8049ea_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_play_vue_vue_type_style_index_0_id_6b8049ea_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_play_vue_vue_type_style_index_0_id_6b8049ea_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "3a38":
 /***/ (function(module, exports) {
 
@@ -18936,6 +18931,13 @@ module.exports = function (TO_STRING) {
 
 /***/ }),
 
+/***/ "73fa":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "7445":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19151,7 +19153,7 @@ module.exports = {
 /***/ "8bbf":
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__8bbf__;
+module.exports = require("vue");
 
 /***/ }),
 
@@ -19992,17 +19994,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "eba5":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_vue_vue_type_style_index_0_id_9f2975bc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2e91");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_vue_vue_type_style_index_0_id_9f2975bc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_vue_vue_type_style_index_0_id_9f2975bc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_audio_vue_vue_type_style_index_0_id_9f2975bc_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "ebfd":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20133,12 +20124,12 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
 var es6_function_name = __webpack_require__("7f7f");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"452ac3ed-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-audio/vue-audio.vue?vue&type=template&id=9f2975bc&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"452ac3ed-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-audio-play/vue-audio-play.vue?vue&type=template&id=6b8049ea&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"audio-content",style:(_vm.audioStyle)},[_c('audio',{ref:"vueAudio",on:{"timeupdate":_vm.updateProgress,"ended":_vm.audioEnded,"canplay":_vm.audioLoad}},[_c('source',{attrs:{"src":_vm.source.url,"type":"audio/mpeg"}}),_vm._v("\n\t\tYour browser does not support the audio element.\n\t")]),_c('aside',{staticClass:"play-button",on:{"click":_vm.playEvent}},[_c('span',{staticClass:"button-icon",attrs:{"data-status":_vm.playStatus}})]),_c('div',{staticClass:"audio-section"},[_c('strong',{staticClass:"audio-file-name"},[_vm._v(_vm._s(_vm.source.name))]),_c('div',{staticClass:"audio-slider"},[_c('vue-slider',{attrs:{"max":_vm.audioMaxTime,"value":_vm.audioTimeValue},on:{"change":_vm.palyTimeChangeHandle}})],1)]),_c('aside',{staticClass:"audio-aside"},[_c('div',{staticClass:"flex-space-between audio-aside-option"},[_vm._t("option1"),_vm._t("option2")],2),_c('p',{staticClass:"audio-play-time"},[_vm._v(_vm._s(_vm.currentTime)+"/"+_vm._s(_vm.totalTime))])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/vue-audio/vue-audio.vue?vue&type=template&id=9f2975bc&scoped=true&
+// CONCATENATED MODULE: ./src/components/vue-audio-play/vue-audio-play.vue?vue&type=template&id=6b8049ea&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js
 var parse_int = __webpack_require__("e814");
@@ -21077,7 +21068,7 @@ var main_component = normalizeComponent(
 )
 
 /* harmony default export */ var main = (main_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--14-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-audio/vue-audio.vue?vue&type=script&lang=ts&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--14-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-audio-play/vue-audio-play.vue?vue&type=script&lang=ts&
 
 
 
@@ -21089,18 +21080,18 @@ var main_component = normalizeComponent(
 
 
 
-var vue_audiovue_type_script_lang_ts_vueAudio =
+var vue_audio_playvue_type_script_lang_ts_vueAudioPlay =
 /*#__PURE__*/
 function (_Vue) {
-  _inherits(vueAudio, _Vue);
+  _inherits(vueAudioPlay, _Vue);
 
-  function vueAudio() {
+  function vueAudioPlay() {
     var _this;
 
-    _classCallCheck(this, vueAudio);
+    _classCallCheck(this, vueAudioPlay);
 
-    _this = _possibleConstructorReturn(this, getPrototypeOf_getPrototypeOf(vueAudio).apply(this, arguments));
-    _this.name = 'vue-audio';
+    _this = _possibleConstructorReturn(this, getPrototypeOf_getPrototypeOf(vueAudioPlay).apply(this, arguments));
+    _this.name = 'vue-audio-play';
     _this.source = {
       name: '',
       url: ''
@@ -21117,7 +21108,7 @@ function (_Vue) {
    */
 
 
-  _createClass(vueAudio, [{
+  _createClass(vueAudioPlay, [{
     key: "playEvent",
     value: function playEvent(event) {
       if (this.$refs.vueAudio.paused) {
@@ -21204,36 +21195,36 @@ function (_Vue) {
     }
   }]);
 
-  return vueAudio;
+  return vueAudioPlay;
 }(external_commonjs_vue_commonjs2_vue_root_Vue_default.a);
 
 __decorate([Prop({
   required: true,
   default: {}
-})], vue_audiovue_type_script_lang_ts_vueAudio.prototype, "value", void 0);
+})], vue_audio_playvue_type_script_lang_ts_vueAudioPlay.prototype, "value", void 0);
 
 __decorate([Prop({
   required: false,
   default: function _default() {}
-})], vue_audiovue_type_script_lang_ts_vueAudio.prototype, "audioStyle", void 0);
+})], vue_audio_playvue_type_script_lang_ts_vueAudioPlay.prototype, "audioStyle", void 0);
 
 __decorate([Watch('value', {
   immediate: true,
   deep: true
-})], vue_audiovue_type_script_lang_ts_vueAudio.prototype, "onSrcChange", null);
+})], vue_audio_playvue_type_script_lang_ts_vueAudioPlay.prototype, "onSrcChange", null);
 
-vue_audiovue_type_script_lang_ts_vueAudio = __decorate([vue_class_component_common_default()({
+vue_audio_playvue_type_script_lang_ts_vueAudioPlay = __decorate([vue_class_component_common_default()({
   components: {
     VueSlider: main
   }
-})], vue_audiovue_type_script_lang_ts_vueAudio);
-/* harmony default export */ var vue_audiovue_type_script_lang_ts_ = (vue_audiovue_type_script_lang_ts_vueAudio);
-// CONCATENATED MODULE: ./src/components/vue-audio/vue-audio.vue?vue&type=script&lang=ts&
- /* harmony default export */ var vue_audio_vue_audiovue_type_script_lang_ts_ = (vue_audiovue_type_script_lang_ts_); 
-// EXTERNAL MODULE: ./src/components/vue-audio/vue-audio.vue?vue&type=style&index=0&id=9f2975bc&lang=scss&scoped=true&
-var vue_audiovue_type_style_index_0_id_9f2975bc_lang_scss_scoped_true_ = __webpack_require__("eba5");
+})], vue_audio_playvue_type_script_lang_ts_vueAudioPlay);
+/* harmony default export */ var vue_audio_playvue_type_script_lang_ts_ = (vue_audio_playvue_type_script_lang_ts_vueAudioPlay);
+// CONCATENATED MODULE: ./src/components/vue-audio-play/vue-audio-play.vue?vue&type=script&lang=ts&
+ /* harmony default export */ var vue_audio_play_vue_audio_playvue_type_script_lang_ts_ = (vue_audio_playvue_type_script_lang_ts_); 
+// EXTERNAL MODULE: ./src/components/vue-audio-play/vue-audio-play.vue?vue&type=style&index=0&id=6b8049ea&lang=scss&scoped=true&
+var vue_audio_playvue_type_style_index_0_id_6b8049ea_lang_scss_scoped_true_ = __webpack_require__("3917");
 
-// CONCATENATED MODULE: ./src/components/vue-audio/vue-audio.vue
+// CONCATENATED MODULE: ./src/components/vue-audio-play/vue-audio-play.vue
 
 
 
@@ -21242,27 +21233,27 @@ var vue_audiovue_type_style_index_0_id_9f2975bc_lang_scss_scoped_true_ = __webpa
 
 /* normalize component */
 
-var vue_audio_component = normalizeComponent(
-  vue_audio_vue_audiovue_type_script_lang_ts_,
+var vue_audio_play_component = normalizeComponent(
+  vue_audio_play_vue_audio_playvue_type_script_lang_ts_,
   render,
   staticRenderFns,
   false,
   null,
-  "9f2975bc",
+  "6b8049ea",
   null
   
 )
 
-/* harmony default export */ var vue_audio = (vue_audio_component.exports);
+/* harmony default export */ var vue_audio_play = (vue_audio_play_component.exports);
 // CONCATENATED MODULE: ./src/index.ts
 
 
 
-vue_audio.install = function (Vue) {
-  return Vue.component(vue_audio.name, vue_audio);
+vue_audio_play.install = function (Vue) {
+  return Vue.component(vue_audio_play.name, vue_audio_play);
 };
 
-/* harmony default export */ var src = (vue_audio);
+/* harmony default export */ var src = (vue_audio_play);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
@@ -21282,5 +21273,4 @@ module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u20
 /***/ })
 
 /******/ });
-});
-//# sourceMappingURL=vue-audio.umd.js.map
+//# sourceMappingURL=vue-audio-play.common.js.map
