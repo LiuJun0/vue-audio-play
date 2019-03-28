@@ -1,5 +1,5 @@
 {
-  "name": "vue-audio",
+  "name": "vue-audio-play",
   "version": "0.1.0",
   "private": false,
   "author": {
@@ -7,8 +7,8 @@
     "email": "ljmail@vip.163.com"
   },
   "license": "MIT",
-  "main": "dist/vue-audio.umd.min.js",
-  "homepage": "https://github.com/LiuJun0/vue-audio.git",
+  "main": "dist/vue-audio-play.umd.min.js",
+  "homepage": "https://github.com/LiuJun0/vue-audio-play.git",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -1,22 +1,22 @@
-# vue-audio
+# vue-audio-play
 
 ## Install
 ```shell
-npm install vue-audio -S
+npm install vue-audio-play -S
 ```
 
 ## Quick Start
 ``` javascript
-import VueAudio from 'vue-audio'
+import VueAudioPlay from 'vue-audio-play'
 
-Vue.use(VueAudio)
+Vue.use(VueAudioPlay)
 
 // or
-import VueAudio from 'vue-audio'
+import VueAudioPlay from 'vue-audio-play'
 
 export default {
     components: {
-        VueAudio
+        VueAudioPlay
     }
 }
 ```

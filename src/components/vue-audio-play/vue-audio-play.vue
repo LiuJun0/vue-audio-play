@@ -47,8 +47,8 @@ interface Source {
   },
 })
 
-export default class vueAudio extends Vue {
-  name: string = 'vue-audio'
+export default class vueAudioPlay extends Vue {
+  name: string = 'vue-audio-play'
 
 	private source: Source = {
 	  name: '',

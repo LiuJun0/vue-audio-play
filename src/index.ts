@@ -1,4 +1,4 @@
-import VueAudio from './components/vue-audio/vue-audio.vue';
+import VueAudioPlay from './components/vue-audio-play/vue-audio-play.vue';
 
 declare module 'vue/types/vue' {
     interface VueConstructor {
@@ -6,6 +6,6 @@ declare module 'vue/types/vue' {
     }
 }
 
-VueAudio.install = Vue => Vue.component(VueAudio.name, VueAudio);
+VueAudioPlay.install = Vue => Vue.component(VueAudioPlay.name, VueAudioPlay);
 
-export default VueAudio;
+export default VueAudioPlay;
