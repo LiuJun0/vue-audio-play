@@ -2,7 +2,7 @@
 
 ## Install
 ```shell
-npm install element-ui -S
+npm install vue-audio -S
 ```
 
 ## Quick Start
