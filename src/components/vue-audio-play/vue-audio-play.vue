@@ -11,7 +11,7 @@
 		<!-- Section -->
 		<div class="audio-section">
 			<!-- file name -->
-			<strong class="audio-file-name">{{ source.name }}</strong>
+			<span class="audio-file-name">{{ source.name }}</span>
 			<!-- slider -->
 			<div class="audio-slider">
 				<vue-slider :max="audioMaxTime" :value="audioTimeValue" @change="palyTimeChangeHandle"/>
@@ -202,6 +202,7 @@ $font-size: 14px;
 	.audio-section {
 		float: left;
 		// width: $audio-section-width;
+		line-height: $font-size;
 		width: calc(100% - 66px - 90px);
 		height: 100%;
 		background-color: $audio-section-background;
@@ -209,6 +210,7 @@ $font-size: 14px;
 		box-sizing: border-box;
 		font-size: $font-size;
 		.audio-file-name {
+			line-height: $font-size;
 			width: 100%;
 			display: inline-block;
 			word-wrap: keep-all;
@@ -224,6 +226,7 @@ $font-size: 14px;
 		@extend .audio-section;
 		width: $audio-aside-width + $audio-section-margin;
 		padding: $audio-section-margin $audio-section-margin $audio-section-margin 0;
+		line-height: $font-size;
 		.audio-play-time {
 			margin-top: 10px;
 			text-align: center;

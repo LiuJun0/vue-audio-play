@@ -113,7 +113,7 @@ export default {
     .slider-runway {
       width: 100%;
       height: 4px;
-      margin: 14px 0;
+      margin: 12px 0;
       background-color: #E4E7ED;
       border-radius: 2px;
       position: relative;
