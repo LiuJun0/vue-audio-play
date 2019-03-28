@@ -3,16 +3,23 @@
 ## Install
 ```shell
 npm install vue-audio-play -S
+
+# or
+yarn add vue-audio-play
 ```
 
 ## Quick Start
 ``` javascript
 import VueAudioPlay from 'vue-audio-play'
 
+import 'vue-audio-play/dist/vue-audio-play.css';
+
 Vue.use(VueAudioPlay)
 
 // or
 import VueAudioPlay from 'vue-audio-play'
+
+import 'vue-audio-play/dist/vue-audio-play.css';
 
 export default {
     components: {
