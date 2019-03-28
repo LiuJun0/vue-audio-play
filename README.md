@@ -1,5 +1,12 @@
 # vue-audio-play
 
+## Demo
+```html
+<vue-audio-play :value="value" :audioStyle="costomeStyle">
+    <!-- Slot -->
+</vue-audio-play>
+```
+
 ## Install
 ```shell
 npm install vue-audio-play -S
@@ -26,6 +33,11 @@ export default {
         VueAudioPlay
     }
 }
+```
+## Slot （Optional）
+```html
+<span slot="option1">Edit</span> 
+<span slot="option2">Delete</span> 
 ```
 
 ## Params
